@@ -1,0 +1,19 @@
+{
+  "name": "@f/trigger-event",
+  "description": "Modern simple event triggering utility that works with more events than most other things out there.",
+  "repository": "git://github.com/micro-js/trigger-event.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/create-event": "^1.0.0"
+  },
+  "devDependencies": {
+    "hihat": "^2.6.4",
+    "tap-dev-tool": "^1.3.0",
+    "tape": "^4.4.0"
+  }
+}
