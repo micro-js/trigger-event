@@ -2,7 +2,7 @@
   "name": "@f/trigger-event",
   "description": "Modern simple event triggering utility that works with more events than most other things out there.",
   "repository": "git://github.com/micro-js/trigger-event.git",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
